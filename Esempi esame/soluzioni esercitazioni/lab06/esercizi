@@ -1,0 +1,34 @@
+1) 
+	a) 	In x20 c'è il 2; 
+	    	con lsr si aggiunge uno zero e diventa 1 caricato in x21;
+	    	poi sottrae in x20 quello che è in x20 meno ciò che è in x21;
+	    	aggiunge e carica in x20 ciò che è in x20 più quello che è in x21
+	    	e shifta a sinistra di 2 bit ciò che è in x21, diventando così 5.
+
+2)
+	a) 	mette 1 in x20 e 3 in x21;
+		carica in x21 l'and bit a bit tra x20 e x21, quindi 1;
+		carica in x20 and not bit a bit tra x20 e x21, quindi 0;
+		shifta a sinistra di 1 bit x21 e poi fa or bit a bit con x20 e carica in x20, quindi 2;
+		or negato tra x20 e x21, quindi in x20 ci sarà -2;
+		or esclusivo tra x20 e x21 shiftato di 2 a sinistra, quindi in x20 ci sarà -6;
+		or negato tra x20 e x21, quindi in x20 ci sarà ;
+		
+
+  x20=	0000 0001
+  x21=	0000 0011
+1.x21=	0000 0001	x20=	0000 0001
+2.x20=	0000 0000	x21=	0000 0001
+3.x20=	0000 0010	x21=	0000 0010
+4.x20=	1 1 1 1  1 101	x21=	1 1 1 1  1 110
+5.x20=	1 1 1 1  1001	x21=	0000 0100
+6.x20=	0000 01 10	x21=	1 1 1 1  1 110
+
+
+3)
+	x2= 90base10		
+	x2=-60base10		
+
+000011 11 +
+10 1 10101 =
+110 00100= 202

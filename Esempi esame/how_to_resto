@@ -1,0 +1,16 @@
+// sostituire le /parole con registri
+
+udiv /risultato, /dividendo, /divisore
+msub /resto, /risultato, /divisore, /dividendo
+
+/*
+
+11 // 2 = 5 resto 1
+
+udiv 5, 11, 2
+msub 1, 5, 2, 11
+
+5 <- 11 / 2
+1 <- 11 - (5*2)
+
+*/

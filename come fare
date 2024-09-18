@@ -1,0 +1,9 @@
+
+
+Quando si vogliono prendere da input più numeri o più stringhe, nel fmt si inserisce .asciz "%d %d"
+prima dello scanf si mette:
+adr x0, fmt
+adr x1, tmp_int
+adr x2, tmp_int_2
+bl scanf
+così nel registro 1 si aspetterà il primo decimale e nel registro 2 il secondo

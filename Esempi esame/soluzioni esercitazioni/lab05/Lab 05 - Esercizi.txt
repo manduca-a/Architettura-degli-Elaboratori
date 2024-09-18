@@ -1,0 +1,5 @@
+1.
+	a) sì, è corretta
+	b)
+	c) mette nel registro l'array n
+	

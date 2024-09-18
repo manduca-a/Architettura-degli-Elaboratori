@@ -1,0 +1,28 @@
+
+
+
+
+Esercizio 3.
+	il numero 11001000 è 200 e rappresenta il complemento a due di 56
+
+	1 .prima vale 200, poi si aggiunge 1 e vale 201
+
+	2. N=0 Z=0 C=0 V=0
+
+	3. 199 perchè n=-1 è minore di 0 perciò si va a sottrarre dal numero iniziale
+
+	4.
+
+	5. n=
+
+
+Esercizio 4.
+	prima ci da true perché 0 AND 1 = 0 e da qui si ha Z=1 per cui true
+
+	se mettiamo 1 AND 1 avremo Z=0 e quindi stampa false 
+
+
+Esercizio 5.
+	un numero maggiore o uguale a 20 ma minore di 30
+
+	un numero maggiore o uguale a 30
